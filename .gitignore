@@ -1,5 +1,12 @@
 HELP.md
+mvnw
+*mvnw
+*mvnw.cmd
+mvnw.cmd
 target/
+.mvm/
+*.mvn
+*.mvm/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -13,12 +20,6 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,3 +32,66 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### IntelliJ IDEA ###
+.idea
+*.idea
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.HELP.md
+.gitignore
+.gitattributes
+.gradle
+gradlew.bat
+.github
+gradle
+
+#IntelliJ files
+**/*.iml
+**/.idea
+**/.gradle
+
+### Eclipse ###
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+**/.project
+**/.classpath
+**/.settings/
+/bin/
+blog/bin/
+**/.tern-project
+**/.factorypath
+
+
+### Mac OS ###
+.DS_Store
+*.class
+/node_modules
+
+# SSH Keys
+*.pem
+*.ppk
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Merge Files
+*.bak
+
+#Other Files
+*.ini
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/.metadata/
